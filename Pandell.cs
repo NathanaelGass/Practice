@@ -42,6 +42,7 @@ public class Pandell
 
 		Console.WriteLine(testUnique(randomNumberArray));
 		
+		//Tests to confirm the test case is working as expected.
 		Console.WriteLine(testUnique(test1));
 		Console.WriteLine(testUnique(test2));
 		Console.WriteLine(testUnique(test3));
@@ -66,7 +67,7 @@ public class Pandell
 					transpileArray[value] = value + 1;
 				}
 			}
-
+			
 		}
 		catch (IndexOutOfRangeException e)
 		{
